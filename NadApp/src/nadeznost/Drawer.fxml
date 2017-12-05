@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="390.0" prefWidth="140.0" style="-fx-background-color: violet;" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nadeznost.DrawerController">
+   <children>
+      <JFXButton id="lw1" prefHeight="80.0" prefWidth="140.0" text="Лабораторная работа №1" textAlignment="CENTER" wrapText="true" />
+      <JFXButton id="lw2" prefHeight="80.0" prefWidth="140.0" text="Лабораторная работа №2" textAlignment="CENTER" wrapText="true" />
+      <JFXButton id="lw3" prefHeight="80.0" prefWidth="140.0" text="Лабораторная работа №3" textAlignment="CENTER" wrapText="true" />
+   </children>
+</VBox>
