@@ -3,7 +3,6 @@ package nadeznost;
 import com.jfoenix.controls.JFXDrawer;
 import com.jfoenix.controls.JFXHamburger;
 import com.jfoenix.controls.JFXToolbar;
-import com.jfoenix.transitions.hamburger.HamburgerBasicCloseTransition;
 import com.jfoenix.transitions.hamburger.HamburgerSlideCloseTransition;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -62,7 +61,7 @@ public class HomeViewController implements Initializable {
         burger.setRate(-1);
         hamburger.addEventHandler(MouseEvent.MOUSE_CLICKED, (event) -> {
             burger.setRate(burger.getRate() * -1);
-            burger.play();
+//            burger.play();
 
             if (drawer.isShown()) {
                 drawer.close();
