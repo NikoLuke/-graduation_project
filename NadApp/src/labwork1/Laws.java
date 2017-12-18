@@ -29,4 +29,12 @@ class Laws implements InitialData {
         return count;
     }
 
+    static int[] getReplacementElements() {
+        int[] t = new int[12];
+            for (int i = 0; i < 12; i++) {
+                t[i] = (int) (genE() * 100);
+            }
+        return t;
+    }
+
 }
