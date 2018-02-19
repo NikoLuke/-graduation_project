@@ -39,7 +39,8 @@ public class HomeViewController implements Initializable {
         try {
             VBox box = FXMLLoader.load(getClass().getResource("Drawer.fxml"));
             AnchorPane labwork1 = FXMLLoader.load(getClass().getResource("/labwork1/LabWork.fxml"));
-//            setNode(labwork1);
+            AnchorPane labwork2 = FXMLLoader.load(getClass().getResource("/labwork2/ResearchReservationProperties.fxml"));
+            AnchorPane labwork3 = FXMLLoader.load(getClass().getResource("/labwork3/DeterminingSystemReliability.fxml"));
             drawer.setSidePane(box);
 
             for (Node node : box.getChildren()) {
@@ -50,6 +51,13 @@ public class HomeViewController implements Initializable {
                                 drawer.close();
                                 setNode(labwork1);
                                 break;
+                            case "lw2":
+                                drawer.close();
+                                setNode(labwork2);
+                                break;
+                            case "lw3":
+                                drawer.close();
+                                setNode(labwork3);
                         }
                     });
                 }

@@ -9,11 +9,12 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import org.controlsfx.control.Notifications;
+
 import java.net.URL;
 import java.util.*;
 
-import static labwork1.Laws.getReplacementElements;
-import static labwork1.Laws.rndMain;
+import static labwork1.Laws.*;
 
 public class LabWorkController implements Initializable, InitialData {
 
@@ -32,10 +33,14 @@ public class LabWorkController implements Initializable, InitialData {
     @FXML
     private TableView<String[]> tableView2;
 
+    private int rndNumber;
+
     @FXML
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
         buttonEnter.setOnAction(event -> {
+
+            rndNumber = (int) Math.round(genE());
 
             if (textField.getText() != null && !textField.getText().isEmpty()) {
                 int time = Integer.parseInt(textField.getText());
@@ -61,6 +66,12 @@ public class LabWorkController implements Initializable, InitialData {
                         break;
                     case T10: populateTable(T10);
                         break;
+
+                    default: Notifications.create()
+                                          .darkStyle()
+                                          .title("Ошибка")
+                                          .text("Введите корректное время")
+                                          .showWarning();
                 }
 
             }
@@ -99,6 +110,18 @@ public class LabWorkController implements Initializable, InitialData {
 
         getEmptyTable();
 
+    }
+
+
+    private int[] rndLaw(int T) {
+        int[] a;
+        if (rndNumber == 0) {
+            a = rndExp(T);
+        }
+        else {
+            a = rndRel(T);
+        }
+        return a;
     }
 
 
@@ -197,56 +220,56 @@ public class LabWorkController implements Initializable, InitialData {
     }
 
 
-    private void populateTable(int T) {
+    protected ObservableList<String[]> getData(int T) {
 
         String[] rowsName = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Число отказов в 10 опытах"};
 
-        int[] lst1 = rndMain(T);
+        int[] lst1 = rndLaw(T);
         String[] str1 = new String[13];
         for (int i = 0; i < lst1.length; i++) str1[i + 1] = String.valueOf(lst1[i]);
         str1[0] = rowsName[0];
 
-        int[] lst2 = rndMain(T);
+        int[] lst2 = rndLaw(T);
         String[] str2 = new String[13];
         for (int i = 0; i < lst2.length; i++) str2[i + 1] = String.valueOf(lst2[i]);
         str2[0] = rowsName[1];
 
-        int[] lst3 = rndMain(T);
+        int[] lst3 = rndLaw(T);
         String[] str3 = new String[13];
         for (int i = 0; i < lst3.length; i++) str3[i + 1] = String.valueOf(lst3[i]);
         str3[0] = rowsName[2];
 
-        int[] lst4 = rndMain(T);
+        int[] lst4 = rndLaw(T);
         String[] str4 = new String[13];
         for (int i = 0; i < lst4.length; i++) str4[i + 1] = String.valueOf(lst4[i]);
         str4[0] = rowsName[3];
 
-        int[] lst5 = rndMain(T);
+        int[] lst5 = rndLaw(T);
         String[] str5 = new String[13];
         for (int i = 0; i < lst5.length; i++) str5[i + 1] = String.valueOf(lst5[i]);
         str5[0] = rowsName[4];
 
-        int[] lst6 = rndMain(T);
+        int[] lst6 = rndLaw(T);
         String[] str6 = new String[13];
         for (int i = 0; i < lst6.length; i++) str6[i + 1] = String.valueOf(lst6[i]);
         str6[0] = rowsName[5];
 
-        int[] lst7 = rndMain(T);
+        int[] lst7 = rndLaw(T);
         String[] str7 = new String[13];
         for (int i = 0; i < lst7.length; i++) str7[i + 1] = String.valueOf(lst7[i]);
         str7[0] = rowsName[6];
 
-        int[] lst8 = rndMain(T);
+        int[] lst8 = rndLaw(T);
         String[] str8 = new String[13];
         for (int i = 0; i < lst8.length; i++) str8[i + 1] = String.valueOf(lst8[i]);
         str8[0] = rowsName[7];
 
-        int[] lst9 = rndMain(T);
+        int[] lst9 = rndLaw(T);
         String[] str9 = new String[13];
         for (int i = 0; i < lst9.length; i++) str9[i + 1] = String.valueOf(lst9[i]);
         str9[0] = rowsName[8];
 
-        int[] lst10 = rndMain(T);
+        int[] lst10 = rndLaw(T);
         String[] str10 = new String[13];
         for (int i = 0; i < lst10.length; i++) str10[i + 1] = String.valueOf(lst10[i]);
         str10[0] = rowsName[9];
@@ -264,8 +287,14 @@ public class LabWorkController implements Initializable, InitialData {
         ObservableList<String[]> observableList = FXCollections.observableArrayList();
         observableList.addAll(arrStr);
 
-        tableView1.setItems(observableList);
+        return observableList;
 
+//        tableView1.setItems(observableList);
+
+    }
+
+    private void populateTable(int T) {
+        tableView1.setItems(getData(T));
     }
 
 }

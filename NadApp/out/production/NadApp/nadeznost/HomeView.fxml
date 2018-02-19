@@ -30,7 +30,7 @@
             </Text>
          </center>
       </JFXToolbar>
-      <AnchorPane fx:id="homeAnchor" layoutX="79.0" layoutY="42.0" prefHeight="386.0" prefWidth="648.0" style="-fx-background-color: green;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="40.0" />
+      <AnchorPane fx:id="homeAnchor" layoutX="79.0" layoutY="42.0" prefHeight="386.0" prefWidth="648.0" style="-fx-background-color: grey;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="40.0" />
       <JFXDrawer fx:id="drawer" layoutY="44.0" prefHeight="390.0" prefWidth="140.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="40.0" />
    </children>
 </AnchorPane>

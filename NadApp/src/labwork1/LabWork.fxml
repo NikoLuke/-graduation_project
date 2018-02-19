@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane fx:id="homeAnchor" prefHeight="430.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="labwork1.LabWorkController">
+<AnchorPane fx:id="homeAnchor" prefHeight="600.0" prefWidth="1200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="labwork1.LabWorkController">
    <children>
       <JFXTabPane layoutX="4.0" layoutY="14.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="117.0" prefWidth="845.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <tabs>
@@ -20,7 +20,7 @@
                         <TableView fx:id="tableView1" layoutX="278.0" layoutY="14.0" prefHeight="300.0" prefWidth="700.0" />
                         <VBox layoutX="15.0" layoutY="14.0" prefHeight="129.0" prefWidth="243.0">
                            <children>
-                              <JFXTextField fx:id="textField" labelFloat="true" promptText="Время испытаний">
+                              <JFXTextField fx:id="textField" focusColor="#0a4151" labelFloat="true" promptText="Время испытаний">
                                  <VBox.margin>
                                     <Insets top="50.0" />
                                  </VBox.margin>
@@ -41,7 +41,7 @@
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                      <children>
                         <TableView fx:id="tableView2" layoutX="274.0" layoutY="14.0" prefHeight="295.0" prefWidth="698.0" />
-                        <JFXButton  fx:id="btnEnter" layoutX="109.0" layoutY="102.0" style="-fx-background-color: #7986CB;" text="Ввод" />
+                        <JFXButton fx:id="btnEnter" layoutX="109.0" layoutY="102.0" style="-fx-background-color: #7986CB;" text="Ввод" />
                      </children>
                   </AnchorPane>
               </content>
