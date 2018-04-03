@@ -58,6 +58,7 @@ public class HomeViewController implements Initializable {
                             case "lw3":
                                 drawer.close();
                                 setNode(labwork3);
+                                break;
                         }
                     });
                 }
