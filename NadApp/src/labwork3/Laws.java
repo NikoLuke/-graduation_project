@@ -10,7 +10,7 @@ class Laws {
     private double genY() { return (-1 + (Math.random() * 2)); }
 
     double Exponential(double lambda) {
-        return -( 1 / lambda ) * Math.log(genE());
+        return - ( 1 / lambda ) * Math.log(genE());
     }
 
     double Normal(int alpha, int sigma) {

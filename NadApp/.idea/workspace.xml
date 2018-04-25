@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/labwork3/DeterminingSystemReliabilityController.java" line="232" />
+    <bookmark url="file://$PROJECT_DIR$/src/labwork3/DeterminingSystemReliabilityController.java" line="179" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c00e5b1-a694-4d8e-b5ec-78bc9115c79a" name="Default" comment="" />
@@ -18,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DeterminingSystemReliabilityController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DeterminingSystemReliabilityController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/labwork3/DeterminingSystemReliabilityController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="283" column="60" lean-forward="true" selection-start-line="283" selection-start-column="60" selection-end-line="283" selection-end-column="60" />
+            <state relative-caret-position="169">
+              <caret line="432" lean-forward="true" selection-start-line="432" selection-end-line="432" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LabWorkController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LabWorkController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/labwork1/LabWorkController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6463">
-              <caret line="297" column="5" selection-start-line="297" selection-start-column="5" selection-end-line="297" selection-end-column="5" />
+            <state relative-caret-position="1955">
+              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
               <folding>
                 <element signature="e#10682#10683#0" expanded="true" />
                 <element signature="e#10729#10730#0" expanded="true" />
@@ -47,13 +47,11 @@
         <entry file="file://$PROJECT_DIR$/src/labwork3/Laws.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,7 +76,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/labwork1/FirstColumn.java" />
         <option value="$PROJECT_DIR$/src/labwork1/PopulateTable.java" />
-        <option value="$PROJECT_DIR$/src/labwork1/Laws.java" />
         <option value="$PROJECT_DIR$/src/labwork2/InitialData.java" />
         <option value="$PROJECT_DIR$/src/labwork2/GeneratedData.java" />
         <option value="$PROJECT_DIR$/src/labwork1/InitialData.java" />
@@ -95,27 +92,28 @@
         <option value="$PROJECT_DIR$/src/labwork3/ModelingDataController.java" />
         <option value="$PROJECT_DIR$/src/nadeznost/HomeViewController.java" />
         <option value="$PROJECT_DIR$/src/labwork2/ResearchReservationPropertiesController.java" />
-        <option value="$PROJECT_DIR$/src/labwork3/Laws.java" />
-        <option value="$PROJECT_DIR$/src/labwork3/DeterminingSystemReliability.fxml" />
         <option value="$PROJECT_DIR$/src/nadeznost/Main.java" />
+        <option value="$PROJECT_DIR$/src/labwork3/DeterminingSystemReliability.fxml" />
+        <option value="$PROJECT_DIR$/src/labwork3/Laws.java" />
+        <option value="$PROJECT_DIR$/src/labwork1/Laws.java" />
         <option value="$PROJECT_DIR$/src/labwork3/DeterminingSystemReliabilityController.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1280" />
-    <option name="y" value="149" />
-    <option name="width" value="1366" />
-    <option name="height" value="768" />
+    <option name="x" value="1328" />
+    <option name="y" value="21" />
+    <option name="width" value="1356" />
+    <option name="height" value="765" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -289,7 +287,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49924242" weight="0.32854864" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27727273" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21060605" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -298,11 +296,11 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24963397" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32854864" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298351" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32854864" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -310,31 +308,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="18" />
+      <option name="time" value="20" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/labwork1/LabWorkController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6831">
-          <caret line="297" column="5" selection-start-line="297" selection-start-column="5" selection-end-line="297" selection-end-column="5" />
-          <folding>
-            <element signature="e#10682#10683#0" expanded="true" />
-            <element signature="e#10729#10730#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/labwork3/Laws.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="460">
+          <caret line="20" column="93" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="93" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -367,9 +352,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -512,13 +495,6 @@
     <entry file="file://$PROJECT_DIR$/src/labwork3/NumGroupController.java" />
     <entry file="file://$PROJECT_DIR$/src/labwork3/hoolyshit.fxml" />
     <entry file="file://$PROJECT_DIR$/src/labwork3/BackupItems.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/labwork1/Laws.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/javafx.controls/javafx/scene/control/Tab.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -551,10 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-89">
           <caret line="931" column="24" selection-start-line="931" selection-start-column="24" selection-end-line="931" selection-end-column="24" />
-          <folding>
-            <element signature="e#37353#37354#0" expanded="true" />
-            <element signature="e#37412#37413#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -608,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/labwork2/ResearchReservationPropertiesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/labwork3/Data.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -631,49 +596,68 @@
     </entry>
     <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/javafx.base/javafx/beans/value/ObservableValue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="118" column="34" lean-forward="true" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
+        <state relative-caret-position="124">
+          <caret line="107" column="31" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/javafx.base/javafx/beans/value/ChangeListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+        <state relative-caret-position="-128">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../idea-IC-172.4343.14/UI-UX/jfoenix-9.0.0.jar!/com/jfoenix/controls/JFXTextField.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/labwork2/ResearchReservationPropertiesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2622">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/labwork1/Laws.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/labwork3/Laws.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/labwork1/LabWorkController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6463">
-          <caret line="297" column="5" selection-start-line="297" selection-start-column="5" selection-end-line="297" selection-end-column="5" />
-          <folding>
-            <element signature="e#10682#10683#0" expanded="true" />
-            <element signature="e#10729#10730#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/labwork3/DeterminingSystemReliabilityController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="283" column="60" lean-forward="true" selection-start-line="283" selection-start-column="60" selection-end-line="283" selection-end-column="60" />
+        <state relative-caret-position="169">
+          <caret line="432" lean-forward="true" selection-start-line="432" selection-end-line="432" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/labwork1/LabWorkController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1955">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+          <folding>
+            <element signature="e#10682#10683#0" expanded="true" />
+            <element signature="e#10729#10730#0" expanded="true" />
           </folding>
         </state>
       </provider>

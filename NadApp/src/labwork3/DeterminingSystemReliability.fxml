@@ -37,6 +37,7 @@
                            </children>
                         </Pane>
                         <JFXButton fx:id="buttonModel" layoutX="860.0" layoutY="610.0" style="-fx-background-color: #7986CB;" text="Смоделировать" />
+                        <JFXButton fx:id="buttonData" layoutX="890.0" layoutY="640.0" style="-fx-background-color: #7986CB;" text="Get data" />
                      </children>
                   </AnchorPane>
               </content>
